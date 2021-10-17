@@ -47,4 +47,6 @@
     f. true === Boolean(2)
         true. Boolean(2) becomes true because Boolean(2) results in true and is of boolean type. 
 15. The difference between the == and === is that == does a type conversion first then checks for equality, while === checks for equality without doing a type conversion. 
-  
+17. The result will return newArr, which will be [2,4,6]. This is because the modifyArray function iterates throught the array [1,2,3] and inputs each value into the doSomething function, which multiplies the value by 2, and pushes it onto the newArr.
+19. The output of the above code will be 1 then 4 then 3 then 2. The 4 is printed out before the 3 and 2 is because the console.log(2) and console.log(3) are delayed.
+20. 
