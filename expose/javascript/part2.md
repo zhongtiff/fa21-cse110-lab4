@@ -12,40 +12,72 @@
 ## Data Types
 12. 
     a. student.name
+    
     b. student["Grad Year"]
+    
     c. student.greeting()
+    
     d. student["Favorite Teacher"].name
+    
     e. student.courseLoad[0]
 13. 
     a. '3'+2 = '32'
+    
         The output is a string because the first input is a string and the 2 maps to '2'.
+        
     b. '3'-2 = 1
+    
         The output is a number because it's subtraction and the '3' maps to a 3.
+        
     c. 3+null = 3
+    
         The output is a number because null maps to 0 and the first input is a number.
+        
     d. '3'+null = '3null'.
+    
         The output is a string because the first input is a string and null maps to 'null'.
+        
     e. true+3 = 4
+    
         The output is a number because it's addition and you can't add booleans together. The true maps to a 1. 
+        
     f. false+null = 0
+    
         The output is a number because it's addition. The false maps to 0 and so does the null.
+        
     g. '3'+undefined = '3undefined'
+    
         The output is a string because the first input is a string. The undefined maps to 'undefined'.
+        
     h. '3'-undefined = NaN
-        The output is NaN because undefined maps to NaN. 
+    
+        The output is NaN because undefined maps to NaN.
+        
 14. 
     a. '2'>1
+    
         true. The string '2' becomes the number 2. 
+        
     b. '2'<'12'
+    
         false. The string '2' becomes the number 2 and the string '12' becomes the number 12.
+        
     c. 2 == '2'
+    
         true. The string '2' becomes the number 2. 
+        
     d. 2 === '2'
+    
         false. The === checks for equality without type conversion, which in this case a number type is not the same as a string type. 
+        
     e. true == 2
+    
         false. true becomes the number 1 and 1 is not equal to 2. 
+        
     f. true === Boolean(2)
+    
         true. Boolean(2) becomes true because Boolean(2) results in true and is of boolean type. 
+        
 15. The difference between the == and === is that == does a type conversion first then checks for equality, while === checks for equality without doing a type conversion. 
-17. The result will return newArr, which will be [2,4,6]. This is because the modifyArray function iterates throught the array [1,2,3] and inputs each value into the doSomething function, which multiplies the value by 2, and pushes it onto the newArr.
-19. The output of the above code will be 1 then 4 then 3 then 2. The 4 is printed out before the 3 and 2 is because the console.log(2) and console.log(3) are delayed.
+17.The result will return newArr, which will be [2,4,6]. This is because the modifyArray function iterates throught the array [1,2,3] and inputs each value into the doSomething function, which multiplies the value by 2, and pushes it onto the newArr.
+19.The output of the above code will be 1 then 4 then 3 then 2. The 4 is printed out before the 3 and 2 is because the console.log(2) and console.log(3) are delayed.
